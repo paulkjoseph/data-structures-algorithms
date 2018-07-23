@@ -1,9 +1,11 @@
-package data.structures.algorithms;
+package data.structures.algorithms.numbers;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import data.structures.algorithms.numbers.Numbers;
 
 public class NumbersTest {
 

@@ -1,4 +1,4 @@
-package data.structures.algorithms;
+package data.structures.algorithms.numbers;
 
 public class Numbers {
 

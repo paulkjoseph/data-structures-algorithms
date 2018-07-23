@@ -1,4 +1,4 @@
-package data.structures.algorithms;
+package data.structures.algorithms.binarytree;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.*;
@@ -13,13 +13,13 @@ public class SumBinaryTreeTest {
 	@Test
 	public void testSumBinaryTree() {
 		// Given;
-		SumBinaryTree sumBinaryTree = new SumBinaryTree(createBinaryTree(new int[] { 1, 2, 3 }));
+		SumBinaryTree sumBinaryTree = new SumBinaryTree(createBinaryTree(new int[] { 1, 2, 3, 7, 6, 8 }));
 
 		// When:
 		int result = sumBinaryTree.sum();
 
 		// Then:
-		assertThat("The sum should be equal to " + result, result, equalTo(6));
+		assertThat("The sum should be equal to " + result, result, equalTo(27));
 	}
 
 	private BinaryTree createBinaryTree(int[] values) {
