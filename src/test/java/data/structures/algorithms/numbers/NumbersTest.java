@@ -10,7 +10,7 @@ import data.structures.algorithms.numbers.Numbers;
 public class NumbersTest {
 
 	@Test
-	public void testResultIsGreaterValid() {
+	public void testValidResultValue() {
 		// Given;
 		int firstValue = 10, secondValue = 512;
 
@@ -22,7 +22,7 @@ public class NumbersTest {
 	}
 
 	@Test
-	public void testResultIsGreaterThan1000000() {
+	public void testInvalidResultValue() {
 		// Given;
 		int firstValue = 10256, secondValue = 512;
 

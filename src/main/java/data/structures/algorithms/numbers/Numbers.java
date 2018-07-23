@@ -8,7 +8,7 @@ public class Numbers {
 		String strThirdValue = "";
 		int minLength = strFirstValue.length() < strSecondValue.length() ? strFirstValue.length()
 				: strSecondValue.length();
-
+		
 		for (int i = 0; i < minLength; i++) {
 			strThirdValue += Character.toString(strFirstValue.charAt(i)) + Character.toString(strSecondValue.charAt(i));
 		}
