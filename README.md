@@ -6,3 +6,14 @@ Dados dois numeros inteiros A e B, crie um terceiro inteiro C seguindo as seguin
 - Caso os números de A ou B sejam de tamanhos diferentes, completar C com o restante dos números do inteiro maior. Ex: A = 10256, B = 512, C deve ser 15012256.
 - Caso C seja maior que 1.000.000, retornar -1
 Desenvolva um algoritmo que atenda a todos os requisitos acima.
+
+## Binary Tree
+Considerando a estrutura de uma árvore binária: 
+
+```java
+public class BinaryTree {
+    int valor; BinaryTree left; BinaryTree right;
+}
+```
+
+Desenvolva um método que dado um nó da árvore calcule a soma de todos os nós subsequentes.
